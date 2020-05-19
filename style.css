@@ -1,3 +1,97 @@
 body {
 background: -webkit-linear-gradient(#FF0033, #FFFB00);;
+=======
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+font-family: 'Press Start 2P', cursive;
+}
+
+.beilage {
+  background: -webkit-linear-gradient(#FF0033, #FFFB00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#interview {
+  vertical-align: middle;
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#interview p {
+  display: inline;
+  padding: 40px;
+  text-align: center;
+}
+
+#interview img {
+  float: left;
+  padding-left: 20px;
+}
+
+#pommes {
+  margin-left: 80px;
+  padding-top: 60px;
+}
+#pommes p {
+  display: inline;
+  padding: 40px;
+  text-align: center;
+}
+
+#pommes img {
+  float: left;
+  padding-left: 20px;
+}
+
+#aerobic {
+  margin-left: 120px;
+  padding-top: 60px;
+}
+#aerobic p {
+  display: inline;
+  padding: 40px;
+  text-align: center;
+}
+
+#aerobic img {
+  float: left;
+  padding-left: 20px;
+}
+
+#food {
+  margin-left: 160px;
+  padding-top: 60px;
+}
+#food p {
+  display: inline;
+  padding: 40px;
+  text-align: center;
+}
+
+#food img {
+  float: left;
+  padding-left: 20px;
+}
+
+
+.palmtree  {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.cocktail {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  transform: rotateZ(20deg);
+}
+
+.seafood {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+>>>>>>> Stashed changes
 }
